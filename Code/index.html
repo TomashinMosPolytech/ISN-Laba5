@@ -1,0 +1,68 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>My Calculator</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+
+</head>
+
+<body>
+	<div>
+		<span>First Variable:<input style="width:24px" id="n1"></input></span>
+		<span>Second Variable:<input style="width:24px" id="n2"></input></span>
+	</div>
+	<br>
+	<div>
+		<button onclick="plus()">+</button>
+		<button onclick="minus()">-</button>
+		<button onclick="multiply()">*</button>
+		<button onclick="division()">/</button>
+	</div>
+
+	<p id="out1">Result:</p>
+
+
+	<hr>
+
+	<span>Variable<input style="width:25px" id="a1"></input></span><sup><span>Power<input  style="width:25px" id="a2"></input></span></sup><br><br>
+	<div>
+		<button onclick="power()">calculate</button>
+		<p id="out2">Result:</p>
+	</div>
+	<hr>
+
+	<sup><span>sqrt<input  style="width:25px" id="b1"></input></span></sup><span>Variable<input style="width:25px" id="b2"></input></span><br>
+	<div>
+		<button onclick="sqrt()">calculate</button>
+		<p id="out3">Result:</p>
+	</div>
+	<hr>
+
+	<div>sin <input style="width:35px" id="s1"></input></div><br>
+	<button onclick="sin()">calculate</button>
+	<p id="out4">Result:</p><span></span>
+
+	<hr>
+
+	<div>cos <input style="width:35px"  id="c1"></input></div><br>
+	<button onclick="cos()">calculate</button>
+	<p id="out5">Result:</p><span></span>
+
+	<hr>
+
+	<div>tg <input style="width:35px"  id="t1"></input></div><br>
+	<button onclick="tg()">calculate</button>
+	<p id="out6">Result:</p><span></span>
+
+
+	<hr>
+
+	<div>ctg <input style="width:35px"  id="ct1"></input></div><br>
+	<button onclick="ctg()">calculate</button>
+	<p id="out7">Result:</p><span></span>
+
+
+</body>
+</html>
+
