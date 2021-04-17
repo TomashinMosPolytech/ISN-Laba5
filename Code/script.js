@@ -6,11 +6,6 @@ function plus(){
 	num2 = document.getElementById('n2').value;
 	num2 = parseInt(num2);
 
-	//fetch(`calculation.php?number1=${num1}&number2=${num2}&opperation=plus`)
-	//.then((response) => response.text())
-	//.then((response) => {
-	//	document.getElementById('out1').innerHTML = response;
-	//});
 	$.ajax({
 		type: "POST",
 		url: "calculation.php",
@@ -19,8 +14,6 @@ function plus(){
 			document.getElementById('out1').innerHTML = msg;
 		}
 	});
-
-	//document.getElementById('out1').innerHTML = num1+num2;
 }
 
 

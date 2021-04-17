@@ -35,7 +35,6 @@ switch ($_POST["opperation"]){
 	echo 1/tan($number1);
 	break;							
 	default:
-				# code...
 	break;
 }
 ?>
